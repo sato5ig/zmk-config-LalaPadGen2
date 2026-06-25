@@ -17,6 +17,11 @@
 
 / {
     behaviors {
+        scroll_scale: scroll_scale {
+            compatible = "zmk,behavior-scroll-scale";
+            scroll_scale = <35>;
+        };
+
         zip_dyn_scale: zip_dyn_scale {
             compatible = "zmk,behavior-zip-dynamic-scale";
             #binding-cells = <2>;
